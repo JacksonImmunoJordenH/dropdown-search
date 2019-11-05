@@ -1,0 +1,16 @@
+ul {
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 45%;
+      grid-template-columns: 45% 45%;
+  grid-gap: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0 auto;
+}
+
+.country-hide {
+  display: none;
+}
+/*# sourceMappingURL=homepage.css.map */
