@@ -10,40 +10,93 @@
     <script src="https://kit.fontawesome.com/f8fa80ab4c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <select name="country-drop" id="country-drop">
-        <option value="all" selected>All Countries</option>
-		<option value="austria">Austria</option>
-		<option value="benelux">Benelux</option>
-		<option value="czech-slovak">Czech and Slovak Republics</option>
-		<option value="denmark">Denmark</option>
-		<option value="egypt">Egypt</option>
-		<option value="finland-estonia">Finland & Estonia</option>
-		<option value="france">France</option>
-		<option value="germany">Germany</option>
-		<option value="hungary">Hungary</option>
-		<option value="italy">Italy</option>
-		<option value="norway">Norway</option>
-		<option value="poland">Poland</option>
-		<option value="slovenia">Slovenia</option>
-		<option value="spain">Spain</option>
-		<option value="sweden">Sweden</option>
-		<option value="switzerland">Switzerland</option>
-		<option value="turkey">Turkey</option>
-		<option value="united-kingdom">United Kingdom</option>
-    </select>
+    <div class="search-container">
+        <select name="country-drop" id="country-drop">
+            <option value="all" selected>&nbsp;All Countries</option>
+            <option value="argentina">&nbsp;Argentina</option>
+            <option value="australia">&nbsp;Australia</option>
+            <option value="austria">&nbsp;Austria</option>
+            <option value="benelux">&nbsp;Benelux</option>
+            <option value="brazil">&nbsp;Brazil</option>
+            <option value="canada">&nbsp;Canada</option>
+            <option value="chile">&nbsp;Chile</option>
+            <option value="czech-slovak">&nbsp;Czech & Slovak Republics</option>
+            <option value="denmark">&nbsp;Denmark</option>
+            <option value="egypt">&nbsp;Egypt</option>
+            <option value="finland-estonia">&nbsp;Finland & Estonia</option>
+            <option value="france">&nbsp;France</option>
+            <option value="germany">&nbsp;Germany</option>
+            <option value="hong-kong">&nbsp;Hong Kong</option>
+            <option value="hungary">&nbsp;Hungary</option>
+            <option value="india">&nbsp;India</option>
+            <option value="israel-jordan">&nbsp;Israel & Jordan</option>
+            <option value="italy">&nbsp;Italy</option>
+            <option value="japan">&nbsp;Japan</option>
+            <option value="malaysia">&nbsp;Malaysia</option>
+            <option value="mexico">&nbsp;Mexico</option>
+            <option value="new-zealand">&nbsp;New Zealand</option>
+            <option value="norway">&nbsp;Norway</option>
+            <option value="panama">&nbsp;Panama</option>
+            <option value="pr-china">&nbsp;People's Republic of China</option>
+            <option value="poland">&nbsp;Poland</option>
+            <option value="singapore">&nbsp;Singapore</option>
+            <option value="slovenia">&nbsp;Slovenia</option>
+            <option value="south-africa">&nbsp;South Africa</option>
+            <option value="south-korea">&nbsp;South Korea</option>
+            <option value="spain">&nbsp;Spain</option>
+            <option value="sweden">&nbsp;Sweden</option>
+            <option value="switzerland">&nbsp;Switzerland</option>
+            <option value="taiwan">&nbsp;Taiwan</option>
+            <option value="thailand">&nbsp;Thailand</option>
+            <option value="turkey">&nbsp;Turkey</option>
+            <option value="united-kingdom">&nbsp;United Kingdom</option>
+            <option value="usa">&nbsp;United States of America</option>
+            <option value="venezuela">&nbsp;Venezuela</option>
+            <option value="vietnam">&nbsp;Vietnam</option>
+        </select>
 
-    <input type="button" name="search" value="Search" onclick="window.location.reload();">
-    
+        <input type="button" name="search" value="Search" onclick="window.location.reload();">
+    </div>
+
     <ul class="dist">
+
+            <li class="all country-hide austria">
+                <div class="countries">
+                    <div class="countries-container">
+                        <div class="card-head">
+                            <h3>Argentina</h3>
+                            <img class="flag" src="img/flags/flag-austria.png" alt="Flag of Austria">
+                        </div>
+                        <hr>
+                        <img class="dist-logo" alt="Szabo Scandic logo" src="https://www.jacksonimmuno.com/img/static-pages/Szabo-Scandic_Logo.jpg" height="50">
+                        <div class="dist-content">
+                            <div class="location">
+                                <p>SZABO-SCANDIC HANDELSGMBH & CO KG</p>
+                                <p>Quellenstraße 110,</p>
+                                <p>A-1100 Vienna</p>
+                                <p>AUSTRIA</p>
+                            </div>
+                            <div class="vert-sep"></div>
+                            <div class="contact">
+                                <div><i class="fas fa-phone"></i><p>&nbsp;&nbsp;+43 1 489 39 61 0</p><br></div>
+                                <div><i class="fas fa-fax"></i><p>&nbsp;&nbsp;+43 1 489 39 61 7</p><br></div>
+                                <div><i class="fas fa-envelope"></i><a href="mailto:mail@szabo-scandic.com"><p>mail@szabo-scandic.com</p></a><br></div>
+                                <div><i class="fas fa-laptop"></i><a href="http://www.szabo-scandic.com"><p>www.szabo-scandic.com</p></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
         <li class="all country-hide austria">
             <div class="countries">
                 <div class="countries-container">
                     <div class="card-head">
                         <h3>Austria</h3>
-                        <img class="flag" src="img/flags/flag-austria.png">
+                        <img class="flag" src="img/flags/flag-austria.png" alt="Flag of Austria">
                     </div>
                     <hr>
-                    <img class="dist-logo" alt="Szabo Scandic logo" src="https://www.jacksonimmuno.com/img/static-pages/Szabo-Scandic_Logo.jpg" align="bottom" border="0" width="115">
+                    <img class="dist-logo" alt="Szabo Scandic logo" src="https://www.jacksonimmuno.com/img/static-pages/Szabo-Scandic_Logo.jpg" height="50">
                     <div class="dist-content">
                         <div class="location">
                             <p>SZABO-SCANDIC HANDELSGMBH & CO KG</p>
@@ -53,10 +106,66 @@
                         </div>
                         <div class="vert-sep"></div>
                         <div class="contact">
-                            <i class="fas fa-phone"></i><p>&nbsp;&nbsp;+43 1 489 39 61 0</p><br>
-                            <i class="fas fa-fax"></i><p>&nbsp;&nbsp;+43 1 489 39 61 7</p><br>
-                            <i class="fas fa-envelope"></i><a href="mailto:mail@szabo-scandic.com"><p>mail@szabo-scandic.com</p></a><br>
-                            <i class="fas fa-laptop"></i><a href="http://www.szabo-scandic.com"><p>www.szabo-scandic.com</p></a>
+                            <div><i class="fas fa-phone"></i><p>&nbsp;&nbsp;+43 1 489 39 61 0</p><br></div>
+                            <div><i class="fas fa-fax"></i><p>&nbsp;&nbsp;+43 1 489 39 61 7</p><br></div>
+                            <div><i class="fas fa-envelope"></i><a href="mailto:mail@szabo-scandic.com"><p>mail@szabo-scandic.com</p></a><br></div>
+                            <div><i class="fas fa-laptop"></i><a href="http://www.szabo-scandic.com"><p>www.szabo-scandic.com</p></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        <li class="all country-hide benelux">
+            <div class="countries">
+                <div class="countries-container">
+                    <div class="card-head">
+                        <h3>Benelux</h3>
+                        <img class="flag" src="img/flags/flag-benelux.png" alt="Flag of Benelux">
+                    </div>
+                    <hr>
+                    <img class="dist-logo" alt="Bio Connect logo" src="https://www.jacksonimmuno.com/img/static-pages/Logo_Bio%20Connect.jpg" height="50">
+                    <div class="dist-content">
+                        <div class="location">
+                            <p>BIO-CONNECT B.V.</p>
+                            <p>Begonialaan 3a </p>
+                            <p>6851 TE Huissen </p>
+                            <p>THE NETHERLANDS </p>
+                        </div>
+                        <div class="vert-sep"></div>
+                        <div class="contact">
+                            <div><i class="fas fa-phone"></i><p>&nbsp;&nbsp;+31 26 326 4450</p><br></div>
+                            <div><i class="fas fa-fax"></i><p>&nbsp;&nbsp;+31 26 326 4451</p><br></div>
+                            <div><i class="fas fa-envelope"></i><a href="mailto:info@bio-connect.nl"><p>info@bio-connect.nl</p></a><br></div>
+                            <div><i class="fas fa-laptop"></i><a href="http://www.bio-connect.nl"><p>www.bio-connect.nl</p></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li class="all country-hide benelux">
+            <div class="countries">
+                <div class="countries-container">
+                    <div class="card-head">
+                        <h3>Benelux</h3>
+                        <img class="flag" src="img/flags/flag-benelux.png" alt="Flag of Benelux">
+                    </div>
+                    <hr>
+                    <img class="dist-logo" alt="EliTechGroup Solutions logo" src="https://www.jacksonimmuno.com/img/static-pages/elitech-logo.png" height="50">
+                    <div class="dist-content">
+                        <div class="location">
+                            <p>ELITECH GROUP</p>
+                            <p>Keistraat 122A </p>
+                            <p>9830 St-Martens-Latem </p>
+                            <p>BELGIUM </p>
+                        </div>
+                        <div class="vert-sep"></div>
+                        <div class="contact">
+                            <div><i class="fas fa-phone"></i><p>&nbsp;&nbsp;+32 9 282 05 31</p><br></div>
+                            <div><i class="fas fa-fax"></i><p>&nbsp;&nbsp;+32 9 282 05 32</p><br></div>
+                            <div><i class="fas fa-envelope"></i><a href="mailto:info-be@lucron.eu"><p>info-be@lucron.eu</p></a><br></div>
+                            <div><i class="fas fa-laptop"></i><a href="http://www.lucron.eu"><p>www.lucron.eu</p></a></div>
                         </div>
                     </div>
                 </div>

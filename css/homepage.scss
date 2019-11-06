@@ -4,6 +4,25 @@ body {
     font-family: 'Open Sans', sans;
 }
 
+.search-container {
+    display: flex;
+    margin-left: 2.5rem;
+}
+
+input[type=button] {
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    background: $blue;
+}
+
+#country-drop {
+    padding: 12px 0;
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
 .countries hr {
     border-top: 1px solid #fff;
     border-bottom: 1px solid $grey;
@@ -52,7 +71,8 @@ body {
 .countries {
     border: 1px solid $grey;
     width: 652px;
-    height: 290px;
+    height: 305px;
+    margin: 2rem 0;
 }
 
 .countries-container {
@@ -81,8 +101,11 @@ body {
 
 .contact {
     width: 35%;
-    line-height: 15px;
-    margin-top: -2.4rem;
+    height: 180px;
+    margin-top: -3.2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 .location p {
@@ -93,6 +116,7 @@ body {
 
 .contact p {
     display: inline-block;
+    margin: 0;
 }
 
 .fa-phone {
@@ -100,10 +124,10 @@ body {
 }
 
 .vert-sep {
-    height: 172px; 
+    height: 186px; 
     width: 1px; 
     background: $grey;
-    margin-top: -2.3rem;
+    margin-top: -3.4rem;
 }
 
 .card-head {
