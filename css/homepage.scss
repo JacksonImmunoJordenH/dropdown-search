@@ -31,7 +31,7 @@ body {
     margin-left: 7px;
 }
 
-.countries p:hover {
+.countries a p:hover {
     color: lighten($blue, 15%);
     text-decoration: underline;
 }
