@@ -41,6 +41,7 @@ input[type=button] {
     height: $flagSize;
     margin-top: 11px;
     margin-bottom: 5px;
+    margin-left: 8px;
     border: 1px solid $grey;
 }
 
@@ -71,7 +72,8 @@ input[type=button] {
 .countries {
     border: 1px solid $grey;
     width: 652px;
-    height: 305px;
+    // height 305 init
+    height: 330px;
     margin: 2rem 0;
 }
 
@@ -80,9 +82,20 @@ input[type=button] {
     margin: 0 auto;
 }
 
-.dist-logo {
-    margin-bottom: -3px;
-    margin-top: 3px;
+.dist-logo,
+.dist-no-logo {
+  margin-bottom: -3px;
+  margin-top: 3px;
+}
+
+.dist-no-logo {
+  width: 40px;
+  height: 50px;
+  display: inline-block;
+}
+
+.dist-logo-container {
+    height: 50px;
 }
 
 .dist-content {
@@ -100,8 +113,8 @@ input[type=button] {
 }
 
 .contact {
-    width: 35%;
-    height: 180px;
+    width: 40%;
+    height: 205px;
     margin-top: -3.2rem;
     display: flex;
     flex-flow: column;
