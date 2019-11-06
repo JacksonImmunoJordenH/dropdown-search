@@ -5,22 +5,42 @@ body {
 .countries hr {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #CCC;
+  margin-bottom: 15px;
 }
 
 .countries h3 {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  margin-bottom: 0px;
+  margin-top: 24px;
   color: #406B85;
+}
+
+.flag {
+  height: 60px;
+  margin-top: 11px;
+  margin-bottom: 5px;
+  border: 1px solid #CCC;
 }
 
 .countries a {
   color: #406B85;
   font-weight: 600;
+  margin-left: 7px;
+}
+
+.countries p:hover {
+  color: #5f93b2;
+  text-decoration: underline;
 }
 
 .countries p,
-.fa-phone {
+.fas {
   font-size: .9rem;
+}
+
+.fa-laptop {
+  margin-left: -2px;
 }
 
 .country-hide {
@@ -30,7 +50,7 @@ body {
 .countries {
   border: 1px solid #CCC;
   width: 652px;
-  min-height: 200px;
+  height: 290px;
 }
 
 .countries-container {
@@ -38,9 +58,9 @@ body {
   margin: 0 auto;
 }
 
-.countries img {
-  margin-top: 5px;
-  margin-bottom: 0;
+.dist-logo {
+  margin-bottom: -3px;
+  margin-top: 3px;
 }
 
 .dist-content {
@@ -64,7 +84,7 @@ body {
 .contact {
   width: 35%;
   line-height: 15px;
-  margin-top: -3rem;
+  margin-top: -2.4rem;
 }
 
 .location p {
@@ -83,9 +103,18 @@ body {
 }
 
 .vert-sep {
-  height: 150px;
+  height: 172px;
   width: 1px;
   background: #CCC;
   margin-top: -2.3rem;
+}
+
+.card-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=homepage.css.map */
