@@ -71,7 +71,7 @@ input[type=button] {
 
 .countries {
   border: 1px solid #CCC;
-  width: 652px;
+  width: 672px;
   height: 330px;
   margin: 2rem 0;
 }
@@ -95,6 +95,11 @@ input[type=button] {
 
 .dist-logo-container {
   height: 50px;
+  margin-top: 18px;
+}
+
+.multi-flag {
+  margin-bottom: -5px;
 }
 
 .dist-content {
@@ -106,17 +111,24 @@ input[type=button] {
           justify-content: space-between;
 }
 
-.location,
-.contact {
-  display: inline-block;
-}
-
 .location {
   width: 50%;
+  height: 155px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .contact {
-  width: 40%;
+  width: 46%;
   height: 205px;
   margin-top: -3.2rem;
   display: -webkit-box;
@@ -126,15 +138,15 @@ input[type=button] {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .location p {
   font-weight: 600;
   font-size: .95rem;
-  line-height: 10px;
+  margin: 0;
 }
 
 .contact p {
@@ -148,7 +160,7 @@ input[type=button] {
 }
 
 .vert-sep {
-  height: 186px;
+  height: 210px;
   width: 1px;
   background: #CCC;
   margin-top: -3.4rem;
