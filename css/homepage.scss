@@ -9,6 +9,10 @@ body {
     margin-left: 2.5rem;
 }
 
+.dist li {
+    list-style: none;
+}
+
 input[type=button] {
     padding: 8px 15px;
     border: none;
@@ -65,9 +69,9 @@ input[type=button] {
     margin-left: -2px;
 }
 
-.country-hide {
-    display: none;
-}
+// .country-hide {
+//     display: none;
+// }
 
 .countries {
     border: 1px solid $grey;

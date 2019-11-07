@@ -9,6 +9,10 @@ body {
   margin-left: 2.5rem;
 }
 
+.dist li {
+  list-style: none;
+}
+
 input[type=button] {
   padding: 8px 15px;
   border: none;
@@ -63,10 +67,6 @@ input[type=button] {
 
 .fa-laptop {
   margin-left: -2px;
-}
-
-.country-hide {
-  display: none;
 }
 
 .countries {
